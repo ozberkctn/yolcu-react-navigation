@@ -29,8 +29,7 @@ import type {
 type SceneProps = {
   scene: NavigationScene,
   position: Animated.Value,
-  progress: Animated.Value,
-  style?: ViewPropTypes.style,
+  progress: Animated.Value
 };
 
 type SubViewRenderer<T> = (props: SceneProps) => ?React.Node;
